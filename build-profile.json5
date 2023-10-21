@@ -1,0 +1,40 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\csl\\.ohos\\config\\openharmony\\auto_ohos_default_test_napi_thread_cpp_com.example.test_napi_thread_cpp.cer",
+          "storePassword": "0000001B0854EF74342D7158E906B9CFE2DB73EA851E1FC62930F70E2666036C13931A5B9756E775640B15",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B821639B0631C8A853A00DEAA7D58FF110366048EF19BC8C5685886634D719EF7EA987FEC30DEE2",
+          "profile": "C:\\Users\\csl\\.ohos\\config\\openharmony\\auto_ohos_default_test_napi_thread_cpp_com.example.test_napi_thread_cpp.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\csl\\.ohos\\config\\openharmony\\auto_ohos_default_test_napi_thread_cpp_com.example.test_napi_thread_cpp.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
